@@ -1,0 +1,3 @@
+export const GET_AIRLINES_DATA = "GET_AIRLINES_DATA";
+export const AIRLINES_DATA_ERROR = "AIRLINES_DATA_ERROR";
+export const SEARCH = "SEARCH";

@@ -1,0 +1,13 @@
+$global-color: #333333;
+
+.nav-container {
+  background-color: $global-color;
+
+  .nav-logo span {
+    width: 55%;
+  }
+  .logo {
+    padding: 0.5rem;
+    border-radius: 0.65rem;
+  }
+}

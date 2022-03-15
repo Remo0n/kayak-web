@@ -1,0 +1,35 @@
+$grey: #cacaca;
+$bg-color: #f9f9f9;
+
+.airline-item-container a {
+  text-decoration: none;
+}
+.airline-item {
+  list-style-type: none;
+  display: flex;
+  border-top: solid 1px $grey;
+  border-bottom: solid 1px $grey;
+  background: $bg-color;
+
+  .airline-item-img-container {
+    display: flex;
+    padding: 10px;
+  }
+
+  .airline-item-img {
+    width: 5rem;
+    height: 3.889rem;
+    background-color: #fff;
+  }
+
+  .airline-item-info-container {
+    display: flex;
+    align-items: center;
+
+    .airline-item-info-name {
+      padding-inline-start: 14px;
+      font-weight: 600;
+      color: #616161;
+    }
+  }
+}

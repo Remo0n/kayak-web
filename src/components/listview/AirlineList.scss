@@ -1,0 +1,20 @@
+$fontColor: #616161;
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.airlines-container {
+  max-height: calc(100vh - 190px);
+  overflow: scroll;
+}
+.airlines-counter-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  .airlines-counter {
+    font-weight: 600;
+    color: $fontColor;
+  }
+}

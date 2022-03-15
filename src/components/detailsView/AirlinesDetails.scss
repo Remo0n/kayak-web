@@ -1,0 +1,32 @@
+$orange: #f49000;
+$fontColor: #616161;
+
+.details {
+  padding: 10px;
+
+  a {
+    text-decoration: none;
+    color: $orange;
+  }
+
+  .airline-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.111rem;
+
+    .airline-details {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+
+    img {
+      width: 75px;
+    }
+
+    .airline-details h4 {
+      margin: 0;
+      color: $fontColor;
+    }
+  }
+}
