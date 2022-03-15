@@ -4,10 +4,15 @@ $global-color: #333333;
   background-color: $global-color;
 
   .nav-logo span {
-    width: 55%;
+    width: 50%;
   }
   .logo {
     padding: 0.5rem;
     border-radius: 0.65rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .nav-logo span {
+    width: 35%;
   }
 }
